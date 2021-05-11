@@ -8,6 +8,7 @@ const Card2 = ({ title, desc, url, width }) => {
             src={url}
             width={width*0.6}
             height={60}
+            className="rounded-md"
             
             // className="cursor-pointer"
             // onClick={() => router.push("/")}

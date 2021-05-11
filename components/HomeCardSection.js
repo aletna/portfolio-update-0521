@@ -2,7 +2,7 @@ import Card2 from "./Card2";
 
 const HomeCardSection = ({ title, card }) => {
   return (
-    <div className="pb-4 w-full md:w-4/5 lg:w-3/5 mx-auto">
+    <div className="pb-4 w-full lg:w-4/5 xl:w-3/5 mx-auto">
       <h1 className="text-2xl font-bold text-center">
         <span className="border-b-4 border-blue-500">{title}</span>
       </h1>
