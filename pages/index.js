@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
 
       {/* Header */}
-      <header className="sticky top-0 bg-white shadow  p-3  text-sm text-gray-700">
+      <header className="sticky top-0 z-10 bg-white shadow p-3  text-sm text-gray-700">
         <div className="flex w-full container mx-auto justify-between">
           {/* Left */}
           <div className="flex space-x-4 items-center">
