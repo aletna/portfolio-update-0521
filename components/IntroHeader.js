@@ -1,10 +1,12 @@
+import Emoji from "./Emoji";
 import UpdateProfessions from "./UpdateProfessions";
 
 const IntroHeader = () => {
   return (
-    <div className="text-center">
-      <h1 className=" text-4xl font-bold mt-5 text-gray-800">Hey, I'm Dennis</h1>
-      <div className="mt-5 mb-6">
+    <div className="text-center mt-2 ">
+      <div className="text-4xl"><Emoji symbol="👋" label="hello" /></div>
+      <h1 className=" text-4xl font-bold mt-3 text-gray-800">Hey, I'm Dennis</h1>
+      <div className="mt-5 mb-3">
         <code className={`${styles.code} rounded-md py-2 px-4 text-gray-800  bg-gray-100`}>
           <em>
             I'm a <UpdateProfessions />
