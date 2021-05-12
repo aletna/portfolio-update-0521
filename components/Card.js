@@ -9,7 +9,11 @@ const Card = ({ title, desc, links, emoji }) => {
       <p className="text-sm text-gray-700 mb-2">{desc}</p>
       <ul className="text-sm pb-5 ">
         {links?.map((link) => (
-          <li key={link.id} className=" link ">
+          <li
+            key={link.id}
+            onClick={() => window.open(link.url, "_blank")}
+            className="link"
+          >
             {link.name}
           </li>
         ))}
