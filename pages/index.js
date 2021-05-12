@@ -55,13 +55,13 @@ export default function Home() {
           card={[
             {
               title: "Minerva Schools at KGI",
-              desc: "Highly selective undergraduate program challenging existing higher education via a curriculum that encourages active learning, engaging in projects solving real world problems with local leaders and civic partners, while living in San Francisco, Seoul, Hyderabad, Berlin, Buenos Aires, Taipei, London.",
+              desc: "Highly selective undergraduate program challenging existing higher education via a curriculum that encourages active learning, engaging in projects solving real world problems with local leaders and civic partners, while living in San Francisco, Seoul, Hyderabad, Berlin, Buenos Aires, Taipei, London. In 2017, I co-founded the Minerva Blockchain society.",
               url: "https://firebasestorage.googleapis.com/v0/b/dennis-portfolio-942f1.appspot.com/o/minerva.png?alt=media&token=232bc7df-8116-48d5-ac8f-426c4aa7e27b",
               width: 308,
             },
             {
               title: "University of Cape Town",
-              desc: "The University of Cape Town is the Top University on the African continent. I completed two years of Finance & Statistics studies which included Deans List and Golden Key Honor Society awards, before leaving it all behind to join Minerva.",
+              desc: "University of Cape Town is Africa's #1 University. I completed two years of Finance & Statistics studies which included Deans List and Golden Key Honor Society awards, before leaving it all behind to join Minerva.",
               url: "https://firebasestorage.googleapis.com/v0/b/dennis-portfolio-942f1.appspot.com/o/uct.png?alt=media&token=bef88fa2-fd2b-4bb9-8a48-844d97e31237",
               width: 100,
             },
