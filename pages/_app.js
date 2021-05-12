@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Navbar />
-      <div style={{paddingBottom:'5rem'}}>
+      <div style={{paddingBottom:'10rem'}}>
         <Component {...pageProps} />
       </div>
       <Footer />
