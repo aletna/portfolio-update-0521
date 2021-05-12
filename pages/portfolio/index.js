@@ -18,7 +18,7 @@ const index = () => {
         <h1 className="text-2xl mb-5 font-bold text-center ">
           <span className="border-b-4 border-blue-500 ">Portfolio</span>
         </h1>
-        <div className="flex flex-wrap flex-col md:flex-row">
+        <div className="flex flex-wrap flex-col md:flex-row sm:mb-5 px-2 md:mb-0 mb-20">
           <Card3 data={SynthFeed} />
           <Card3 data={EtherCup} />
           <Card3 data={ChatBot} />
