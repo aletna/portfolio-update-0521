@@ -9,7 +9,7 @@ const Navbar = () => {
         {/* Left */}
         <div className="flex w-1/4 space-x-4 items-center">
           <p className="linkNav" onClick={() => router.push("/portfolio")}>
-            Dev Portfolio
+            Dev
           </p>
           {/* <p className="linkNav">About</p> */}
           {/* <p className="linkNav">Store</p> */}
@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="ml-auto">
             <p className="linkNav">
               <a href="https://aletna.me" target="_blank">
-                Music Portfolio
+                Music
               </a>
             </p>
             {/* <p className="linkNav ">Code</p> */}
