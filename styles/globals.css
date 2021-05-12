@@ -3,14 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  min-height: 100vh;
+  position: relative;
+}
 @layer components {
   /* bg-[#f8f9fa] */
   .btn {
-    @apply  p-3 rounded-md ring-gray-200 shadow
+    @apply p-3 rounded-md ring-gray-200 shadow
      text-gray-800  font-bold hover:ring-1 focus:outline-none 
     active:ring-gray-300 hover:shadow-md border
-    transition duration-100 transform hover:scale-102 
-    ;
+    transition duration-100 transform hover:scale-102;
   }
 
   .linkNav {
@@ -18,6 +21,6 @@
     transition duration-300 transform hover:scale-110  hover:font-bold hover:border-blue-500 hover:border-b-4;
   }
   .link {
-    @apply text-blue-700 cursor-pointer py-1 transition duration-100 transform hover:scale-105 hover:border-b-4 hover:font-bold border-gray-100;
+    @apply text-blue-700 border-b border-white cursor-pointer py-1 transition duration-200 transform hover:scale-102 hover:border-blue-200 hover:font-bold;
   }
 }

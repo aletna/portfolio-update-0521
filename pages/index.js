@@ -13,6 +13,7 @@ import HomeCardSection from "../components/HomeCardSection";
 import { useRouter } from "next/router";
 
 
+
 export default function Home() {
   const router = useRouter();
   return (
@@ -48,7 +49,7 @@ export default function Home() {
       </div>
 
       {/* <HomeAbout /> */}
-      <div class="container mx-auto py-10 mt-10 ">
+      <div className="container mx-auto py-10 mt-10 ">
         <HomeCardSection
           title="Education"
           card={[
@@ -120,6 +121,7 @@ export default function Home() {
       {/* <LeftHeader /> */}
 
       {/* Footer */}
+      
     </div>
   );
 }
