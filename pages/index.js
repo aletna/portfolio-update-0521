@@ -25,7 +25,7 @@ export default function Home() {
       {/* Header */}
 
       {/* Main */}
-      <div className="container mx-auto mt-10 bg-gray-100 py-10 rounded-md">
+      <div className="container cursor-pointer mx-auto mt-10 bg-gray-100 py-10 rounded-md" onClick={() => router.push('/about')}>
         <IntroHeader />
       </div>
 

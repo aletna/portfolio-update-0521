@@ -3,7 +3,7 @@ import UpdateProfessions from "./UpdateProfessions";
 
 const IntroHeader = () => {
   return (
-    <div className="text-center mt-2 ">
+    <div className="text-center mt-2">
       <div className="text-4xl"><Emoji symbol="👋" label="hello" /></div>
       <h1 className=" text-4xl font-bold mt-3 text-gray-800">Hey, I'm Dennis</h1>
       <div className="mt-5 mb-3">
