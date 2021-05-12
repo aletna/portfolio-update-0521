@@ -41,7 +41,7 @@ const index = () => {
             <title>{data.title} - Dennis Portfolio</title>
             <meta
               name="description"
-              content="Some portfolio items highlighted."
+              content="Dennis Portfolio"
             />
             <link rel="icon" href="/favicon.ico" />
           </Head>
