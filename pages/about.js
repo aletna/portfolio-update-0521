@@ -53,11 +53,7 @@ const about = () => {
             As of now I have lived, worked and studied in Germany 🇩🇪, South
             Africa 🇿🇦, India 🇮🇳, South Korea 🇰🇷, Colombia 🇨🇴, Mexico 🇲🇽,
             Argentina 🇦🇷 and the United States 🇺🇸, which allowed me to adapt to
-            a diverse set of environments.{" "}
-            {/* I'm confident that my combined experience in the music
-        industry, as a software engineer, and also blockchain-based development
-        experience (solidity + web3.js) make me a great fit for the Audius team. */}
-            Through my constant exposure to change, I have learned not to shy
+            a diverse set of environments. Through my constant exposure to change, I have learned not to shy
             away from learning new skillsets whenever needed, and after having
             explored a few different industries, it has become increasingly
             important to me to find a team or company that aligns with my
